@@ -1,0 +1,981 @@
+Unity Editor version:    2022.3.18f1 (d29bea25151d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/midknight/Desktop/Brooke Stuff/Unseen
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57666
+Successfully changed project path to: /Users/midknight/Desktop/Brooke Stuff/Unseen
+/Users/midknight/Desktop/Brooke Stuff/Unseen
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8737301056] Host "[IP] 192.168.50.114 [Port] 0 [Flags] 2 [Guid] 1309682938 [EditorId] 1309682938 [Version] 1048832 [Id] OSXEditor(0,midknigtsLaptop) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8737301056] Host "[IP] 192.168.50.114 [Port] 0 [Flags] 2 [Guid] 1309682938 [EditorId] 1309682938 [Version] 1048832 [Id] OSXEditor(0,midknigtsLaptop) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/midknight/Desktop/Brooke Stuff/Unseen/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M3 (high power)
+Metal devices available: 1
+0: Apple M3 (high power)
+Using device Apple M3 (high power)
+Initializing Metal device caps: Apple M3
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002105 seconds.
+- Loaded All Assemblies, in  0.430 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 173 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.031 seconds
+Domain Reload Profiling: 1463ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1032ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (940ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (483ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.772 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.804 seconds
+Domain Reload Profiling: 2579ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (413ms)
+		LoadAssemblies (350ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1806ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1495ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (1269ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (222.1 KB). Loaded Objects now: 3997.
+Memory consumption went from 157.3 MB to 157.1 MB.
+Total: 3.180625 ms (FindLiveObjects: 0.196541 ms CreateObjectMapping: 0.057959 ms MarkObjects: 2.729417 ms  DeleteObjects: 0.194709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 300318.016777 seconds.
+  path: Assets/Unseen/Credits.prefab
+  artifactKey: Guid(b91fbe1f0c8714678b6056ecb5fea995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Credits.prefab using Guid(b91fbe1f0c8714678b6056ecb5fea995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb1d932412317fbce0a2c4c77230310') in 0.062195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Unseen/JumpScare.fbx
+  artifactKey: Guid(32a95fe0f550845aca99bd5545615f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JumpScare.fbx using Guid(32a95fe0f550845aca99bd5545615f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556c26134db6ec19459cab9f088a3e59') in 0.502799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 151
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Unseen
+  artifactKey: Guid(b4a5d63cfd4be4b708bef5166429ec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen using Guid(b4a5d63cfd4be4b708bef5166429ec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ec6109f12ff3057873be0c6ea7e152') in 0.000606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Unseen/Black.mat
+  artifactKey: Guid(09aea3b955c524744863904d7e22be21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Black.mat using Guid(09aea3b955c524744863904d7e22be21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaccb724c3ca01e8c1740e2a403d65a1') in 0.052716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Unseen/Map.prefab
+  artifactKey: Guid(d54517c62361842cf80db4c0694ad882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Map.prefab using Guid(d54517c62361842cf80db4c0694ad882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a692fdbd9dc47c09da52c2ee507b80ea') in 0.700857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4267
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/MiscTextures/Carpet5.jpg
+  artifactKey: Guid(e93e8b5eda8058e49a67b2f2a4bd6465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/MiscTextures/Carpet5.jpg using Guid(e93e8b5eda8058e49a67b2f2a4bd6465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70dca4046d1ed206c9884c64f084239') in 0.024617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Models/Bad/Bad_n.png
+  artifactKey: Guid(a9062d1e8d1601a4ea69e400ec739c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Models/Bad/Bad_n.png using Guid(a9062d1e8d1601a4ea69e400ec739c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62316349d62cffb91e2f7df316384901') in 0.043231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Models/Cabel/Cabels.FBX
+  artifactKey: Guid(613a77867ef6d964aab8036e91e96c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Models/Cabel/Cabels.FBX using Guid(613a77867ef6d964aab8036e91e96c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da01d1f233def5713ad8993091ce650') in 0.013154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/Demo/UI Canvas/CFX Demo Btn Arrow.png
+  artifactKey: Guid(6ca93523b0317c242b05932fedb07cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/Demo/UI Canvas/CFX Demo Btn Arrow.png using Guid(6ca93523b0317c242b05932fedb07cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d0b4e684dd3ef2d323c721023bd384') in 0.035968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/Demo/UI Canvas/CFX Demo Btn Arrow R.png
+  artifactKey: Guid(3783f195e2c8dc84cb1461fbe881e9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/Demo/UI Canvas/CFX Demo Btn Arrow R.png using Guid(3783f195e2c8dc84cb1461fbe881e9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ce82696dc6cfd7121df0fb4cbd7d25') in 0.014079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Models/Cabel/CabelsDiffuse.png
+  artifactKey: Guid(30b01e91f7edbc14bbc45d50527543a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Models/Cabel/CabelsDiffuse.png using Guid(30b01e91f7edbc14bbc45d50527543a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d255cdd2bba5722c86ed4ae974f0f84') in 0.004425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Prefabs/Cabels.prefab
+  artifactKey: Guid(6e2ce341e5d886d478c0c5b7aba00cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Prefabs/Cabels.prefab using Guid(6e2ce341e5d886d478c0c5b7aba00cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2d5445fae42d02667c0061682e39fa') in 0.004478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Models/Doorway/Materials/base_dDo02_d.mat
+  artifactKey: Guid(03022bad6f156469985c40271642e9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Models/Doorway/Materials/base_dDo02_d.mat using Guid(03022bad6f156469985c40271642e9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201d90b232cd7a984a3dbbea5e9a4a7a') in 0.006062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Unseen/StartButton.prefab
+  artifactKey: Guid(29cd0810ac7a348c38e58b5256e649da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/StartButton.prefab using Guid(29cd0810ac7a348c38e58b5256e649da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af0f83cb216f64030d3d20420e165c1') in 0.009205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/MiscTextures/Carpet.jpg
+  artifactKey: Guid(05ff19e236bb5cf4fb18c7e92a7162b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/MiscTextures/Carpet.jpg using Guid(05ff19e236bb5cf4fb18c7e92a7162b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2608b15f8fb0052d2e755eb97efcf8') in 0.006032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Unseen/New Material.mat
+  artifactKey: Guid(0372592596cfb4419852fa3aaa911527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/New Material.mat using Guid(0372592596cfb4419852fa3aaa911527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf47e74b4f6a80fe90a8a934ee11b75') in 0.004494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Unseen/DeathScene_Profiles/Black Profile.asset
+  artifactKey: Guid(b7f16d7fa1f7a4531a2a6ae3dc3ffc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/DeathScene_Profiles/Black Profile.asset using Guid(b7f16d7fa1f7a4531a2a6ae3dc3ffc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d941bf48eda8bfc5a08651ce52a7eb') in 0.029939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Models/Bad/Materials/Bad_dDo_d.mat
+  artifactKey: Guid(2867bfffa98fa4d29be2f758a805cc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Models/Bad/Materials/Bad_dDo_d.mat using Guid(2867bfffa98fa4d29be2f758a805cc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c2bda14214efa6e63d81ac58836439') in 0.004783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/MiscTextures/Carpet4.jpg
+  artifactKey: Guid(27dc6ad7048af044b930252d3e627f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/MiscTextures/Carpet4.jpg using Guid(27dc6ad7048af044b930252d3e627f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46365497c0e7bafc0f6b490150d4492') in 0.007288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Unseen/New Material 1.mat
+  artifactKey: Guid(de0921724f15840f4a5944e1238cda3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/New Material 1.mat using Guid(de0921724f15840f4a5944e1238cda3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf3ff4aeaf9c1d54f4fd420dbdaa538') in 0.010354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Arms/Arms.mat
+  artifactKey: Guid(50e4233ac14f218418285c99558ba3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Arms/Arms.mat using Guid(50e4233ac14f218418285c99558ba3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfe160e0d3e91ff4cd419e72d4bdfff') in 0.006184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 37.421238 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Fire/Black Smoke/WFX_GazFire (Black Smoke).prefab
+  artifactKey: Guid(a83e0ffec52c58a47a7af8081a1dab6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Fire/Black Smoke/WFX_GazFire (Black Smoke).prefab using Guid(a83e0ffec52c58a47a7af8081a1dab6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a6b45ab61a40463658f55f14779b92') in 0.110127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects (Mobile)/Fire/No Smoke/WFXMR_GazFire (No Smoke).prefab
+  artifactKey: Guid(3df2db25d0e8c43499712fa1808b0960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects (Mobile)/Fire/No Smoke/WFXMR_GazFire (No Smoke).prefab using Guid(3df2db25d0e8c43499712fa1808b0960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ed81acefd8e5d509f39c04bbd5ac53') in 0.056303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects (Mobile)/Fire/WFXMR_GazFireBig (Purple).prefab
+  artifactKey: Guid(99912b6bbb720824baca3259bb8d7b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects (Mobile)/Fire/WFXMR_GazFireBig (Purple).prefab using Guid(99912b6bbb720824baca3259bb8d7b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ffb6752c5d600cc2cc22591168dd60') in 0.013454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Fire/WFX_GazFireBig (Green).prefab
+  artifactKey: Guid(416b2492ca9d1b140874c7ba41cb3214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Fire/WFX_GazFireBig (Green).prefab using Guid(416b2492ca9d1b140874c7ba41cb3214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11af7db190a6b43cb337f0345b0d33dc') in 0.005357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects (Mobile)/Fire/Black Smoke/WFXMR_GazFire (Black Smoke).prefab
+  artifactKey: Guid(17315d51dc90be34cad95e853f26b6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects (Mobile)/Fire/Black Smoke/WFXMR_GazFire (Black Smoke).prefab using Guid(17315d51dc90be34cad95e853f26b6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396d47dd088d1a2f45ef0e1050ccbaf6') in 0.005317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Fire/Gray Smoke/WFX_GazFireBig (Gray Smoke).prefab
+  artifactKey: Guid(b129faff9037943418e319f01ef35913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Fire/Gray Smoke/WFX_GazFireBig (Gray Smoke).prefab using Guid(b129faff9037943418e319f01ef35913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fa18c0f0097e435da56529f23859ca') in 0.005479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Fire/WFX_GazFireBig (Purple).prefab
+  artifactKey: Guid(e15f5af5b5f07bd469b5f4f98ed23c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Fire/WFX_GazFireBig (Purple).prefab using Guid(e15f5af5b5f07bd469b5f4f98ed23c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59389d6f1ea8781a44f664b3b35bd44') in 0.008405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Fire/Gray Smoke/WFX_GazFire (Gray Smoke).prefab
+  artifactKey: Guid(8f4c8e6e19f6811488df5bbe56510f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Fire/Gray Smoke/WFX_GazFire (Gray Smoke).prefab using Guid(8f4c8e6e19f6811488df5bbe56510f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c9c30aa90380409391645f08b98730') in 0.007245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Fire/No Smoke/WFX_GazFireBig (No Smoke).prefab
+  artifactKey: Guid(ec8ca459c13886c48b2e9767acbe237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Fire/No Smoke/WFX_GazFireBig (No Smoke).prefab using Guid(ec8ca459c13886c48b2e9767acbe237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b4592e8b2a037387bc95046219fb39') in 0.011548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects (Mobile)/Fire/Gray Smoke/WFXMR_GazFireBig (Gray Smoke).prefab
+  artifactKey: Guid(0cb8c2d73332b6845b2eec02e21e91f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects (Mobile)/Fire/Gray Smoke/WFXMR_GazFireBig (Gray Smoke).prefab using Guid(0cb8c2d73332b6845b2eec02e21e91f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e7b6ba2433ee623d70bda007f4d2d0') in 0.006240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects (Mobile)/Fire/Black Smoke/WFXMR_GazFireBig (Black Smoke).prefab
+  artifactKey: Guid(2522b91780559a44794173d3dae9723b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects (Mobile)/Fire/Black Smoke/WFXMR_GazFireBig (Black Smoke).prefab using Guid(2522b91780559a44794173d3dae9723b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7256d7dff6797cfae245ea056727f763') in 0.005369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Fire/WFX_GazFireBig (Blue).prefab
+  artifactKey: Guid(cdd71635203c8ed47a18dcefce87463e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Fire/WFX_GazFireBig (Blue).prefab using Guid(cdd71635203c8ed47a18dcefce87463e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddf0bafff0293d8cc6932574310ffaf') in 0.005143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Unseen/AUDIO/zombie-groan-sound-effect-type-03-294191.mp3
+  artifactKey: Guid(2de07d5e6f71e4a6eacb5479feb7d3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/AUDIO/zombie-groan-sound-effect-type-03-294191.mp3 using Guid(2de07d5e6f71e4a6eacb5479feb7d3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ecf7b4828457ed7b9b6fdcb94a2956') in 0.063141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.120848 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Zombie/Idle.fbx
+  artifactKey: Guid(e46fce934644b3d44a4d0121fd0adf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Zombie/Idle.fbx using Guid(e46fce934644b3d44a4d0121fd0adf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2c8cc8cd4f5558fd2713a26bdc50d5') in 0.068010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 164
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Zombie/workerSubs_tshirt_AlbedoTransparency.png
+  artifactKey: Guid(ab22b9c119a81774796447080762772d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Zombie/workerSubs_tshirt_AlbedoTransparency.png using Guid(ab22b9c119a81774796447080762772d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b468aacd5e4a93ce33f9af453122e82') in 0.006914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Zombie/Walk.fbx
+  artifactKey: Guid(54516d13e45446d448222b70169ac4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Zombie/Walk.fbx using Guid(54516d13e45446d448222b70169ac4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556538159f2a2b8603784faa82641cee') in 0.061526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 164
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Zombie/workerSubs_shoes05_AlbedoTransparency.png
+  artifactKey: Guid(85a0f5abab5ffde4ab5c36a54d195807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Zombie/workerSubs_shoes05_AlbedoTransparency.png using Guid(85a0f5abab5ffde4ab5c36a54d195807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd949899154d308b26ad1f273b18abf80') in 0.004664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Zombie/workerSubs_male_worksuit01_Normal.png
+  artifactKey: Guid(20002704b91f441448849635f7c7912e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Zombie/workerSubs_male_worksuit01_Normal.png using Guid(20002704b91f441448849635f7c7912e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673352ee5d69e2b550f5693c226b8b89') in 0.006242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Zombie/workerSubs_hangers_AlbedoTransparency.png
+  artifactKey: Guid(e89c2cf594763e948a17b717b1fe179f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Zombie/workerSubs_hangers_AlbedoTransparency.png using Guid(e89c2cf594763e948a17b717b1fe179f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa9cf08b0ee649acae02eea165bde9a') in 0.006628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.137966 seconds.
+  path: Assets/Plugins/Boring/Stylized VFX Free Pack/Resources/Materials/FX_MAT_AlphaBlended.mat
+  artifactKey: Guid(233cd3f9d28004f47abca99a3849d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Boring/Stylized VFX Free Pack/Resources/Materials/FX_MAT_AlphaBlended.mat using Guid(233cd3f9d28004f47abca99a3849d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3638f45638963405ca7e6f291f2c27') in 0.050468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/Desktop/Textures/Misc/WFX_T_Debris Generic.tga
+  artifactKey: Guid(b23528b172bf0ab459d12b978186714c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/Desktop/Textures/Misc/WFX_T_Debris Generic.tga using Guid(b23528b172bf0ab459d12b978186714c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31ebf4b400b37432b9e1a8201ac0332') in 0.004345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Map/MapBlenderFile.blend
+  artifactKey: Guid(392cf603e49eaa74a941a0d174750361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Map/MapBlenderFile.blend using Guid(392cf603e49eaa74a941a0d174750361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b665e49d2aac3d7c1f253b903e3ca446') in 0.063842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeNoise.mat
+  artifactKey: Guid(0c4c5159dcddba345a2aede959b2b3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeNoise.mat using Guid(0c4c5159dcddba345a2aede959b2b3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f20170896e7e66bed621da93aac0f1') in 0.052010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade AlphaBlend Green.prefab
+  artifactKey: Guid(6a6450d1b39d99545be383e7549fd7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade AlphaBlend Green.prefab using Guid(6a6450d1b39d99545be383e7549fd7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6c593a2d38266781c6bd9cf23d7405') in 0.074936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade AlphaBlend Purple.prefab
+  artifactKey: Guid(7cde0416639579a4787e7142ede5fd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade AlphaBlend Purple.prefab using Guid(7cde0416639579a4787e7142ede5fd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470b113cf50d0e2cc4ae8a324cdb4fb4') in 0.005369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Glock/Slide_Reference_Front.png
+  artifactKey: Guid(444ab52f7df8a2c40b2d23f2d2e1f497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Glock/Slide_Reference_Front.png using Guid(444ab52f7df8a2c40b2d23f2d2e1f497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6872d0acac104de95765fc1cacd3d3') in 0.007475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/Desktop/Materials/Bullet Holes/WFX_BulletHole Generic Dirt.mat
+  artifactKey: Guid(d1cd8b9b3c7d785469e17f97b682c90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/Desktop/Materials/Bullet Holes/WFX_BulletHole Generic Dirt.mat using Guid(d1cd8b9b3c7d785469e17f97b682c90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999d18bbe1a76fcf0735f30d3952fb89') in 0.052434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade Gray.prefab
+  artifactKey: Guid(a24c2dc4ddb2fb34591d1bbab6a8354a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade Gray.prefab using Guid(a24c2dc4ddb2fb34591d1bbab6a8354a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbdb3f966ba445630960e2005610889') in 0.005491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/Desktop/Materials/Bullet Holes/WFX_BulletHole Generic Sand.mat
+  artifactKey: Guid(bdd14d80d6f714d4ebc207bf6ad3164c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/Desktop/Materials/Bullet Holes/WFX_BulletHole Generic Sand.mat using Guid(bdd14d80d6f714d4ebc207bf6ad3164c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2792618cb6b49c7b5682287ad5daae57') in 0.004128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Glock/Slide_Reference_Back.png
+  artifactKey: Guid(c17c78cf4c5cd5b409a83006b5d1e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/BasicHorrorGameAssets/Models/Glock/Slide_Reference_Back.png using Guid(c17c78cf4c5cd5b409a83006b5d1e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd0e1b8546b2e71fcde5ff90269c967') in 0.004426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeGrenade AB.mat
+  artifactKey: Guid(34d513672558fe0478dd3a29e7f55db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeGrenade AB.mat using Guid(34d513672558fe0478dd3a29e7f55db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96ca06b4c5e7e5533c8549e00b15c17') in 0.009044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade AlphaBlend Gray.prefab
+  artifactKey: Guid(e37de961c0fe47b439a8a7c1c1b6213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade AlphaBlend Gray.prefab using Guid(e37de961c0fe47b439a8a7c1c1b6213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c8c7d1036cf3438946e25924828b51') in 0.008221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade Blue.prefab
+  artifactKey: Guid(fea95a8674a12ca469d953eefadb847c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade Blue.prefab using Guid(fea95a8674a12ca469d953eefadb847c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9c83e87a89880f3b3ffa9ea7014feb') in 0.008641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade Yellow.prefab
+  artifactKey: Guid(8fd015f45a4199b46b12ba97a1f574c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade Yellow.prefab using Guid(8fd015f45a4199b46b12ba97a1f574c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d04d69deb079ff56f46bfd1a1def56f') in 0.005781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Unseen/Hovl Studio/Procedural fire/URP and HDRP/How to change rendering pipeline.png
+  artifactKey: Guid(e7ccd183c307b23438d784153ab85448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Hovl Studio/Procedural fire/URP and HDRP/How to change rendering pipeline.png using Guid(e7ccd183c307b23438d784153ab85448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f344a44bed4f1e7fb1a2483bff63454e') in 0.005135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade AlphaBlend Black.prefab
+  artifactKey: Guid(6f8449a4663a4fd44b6140772d4f39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade AlphaBlend Black.prefab using Guid(6f8449a4663a4fd44b6140772d4f39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a495f5898412cffa702d1d7414f8e7e7') in 0.004571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade White.prefab
+  artifactKey: Guid(b7a5dd96bb4187348909e660f427221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade White.prefab using Guid(b7a5dd96bb4187348909e660f427221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8fc73fa0df327be9476ce1676068de') in 0.007393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Unseen/Hovl Studio/Procedural fire/Prefabs/Magic fire pro green.prefab
+  artifactKey: Guid(3d35e81bdc5955041be098ef22e82a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Hovl Studio/Procedural fire/Prefabs/Magic fire pro green.prefab using Guid(3d35e81bdc5955041be098ef22e82a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c598530a912cdfac316fd015a8d80c5c') in 0.161156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 59.614318 seconds.
+  path: Assets/Unseen/DeathScene_Profiles/Dark Profile 1.asset
+  artifactKey: Guid(1d60ce3a3e342474b897f00620a96b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/DeathScene_Profiles/Dark Profile 1.asset using Guid(1d60ce3a3e342474b897f00620a96b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a91bc795cf1fb5565b47f7ce4d024c7') in 0.005353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Unseen/DeathScene_Profiles/Main Camera Profile 2.asset
+  artifactKey: Guid(30d422647b5f14d77bcbb1cd142bc36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/DeathScene_Profiles/Main Camera Profile 2.asset using Guid(30d422647b5f14d77bcbb1cd142bc36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61beace056c1024278e39ee0e4dceea') in 0.000585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Unseen/DeathScene_Profiles/Main Camera Profile 1.asset
+  artifactKey: Guid(6ea019baca2254c36a7c3356e9db1dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/DeathScene_Profiles/Main Camera Profile 1.asset using Guid(6ea019baca2254c36a7c3356e9db1dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f75b72479293a03bfad2924734e6641') in 0.000392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Unseen/DeathScene_Profiles/Main Camera Profile 3.asset
+  artifactKey: Guid(8545f16c716834001986d78b7e5443ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/DeathScene_Profiles/Main Camera Profile 3.asset using Guid(8545f16c716834001986d78b7e5443ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb2f9b5ccc3fb603ed314e050c83ca8') in 0.003544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Unseen/DeathScene_Profiles/Main Camera Profile.asset
+  artifactKey: Guid(ae7f944c1a6314a19994b31cd4adec0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/DeathScene_Profiles/Main Camera Profile.asset using Guid(ae7f944c1a6314a19994b31cd4adec0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd796df38ad16aadaf5f32baf5a04f35f') in 0.000676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.981870 seconds.
+  path: Assets/Unseen/AUDIO/Run.mp3
+  artifactKey: Guid(885c2835ded9d9e489449b62ad98efe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/AUDIO/Run.mp3 using Guid(885c2835ded9d9e489449b62ad98efe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fafe7ad580c8389a481939bba47d02') in 0.014530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Unseen/AUDIO/SteppingOnTile_04.mp3
+  artifactKey: Guid(2d58e47ca89eb4643b3414095cde6e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/AUDIO/SteppingOnTile_04.mp3 using Guid(2d58e47ca89eb4643b3414095cde6e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7293e82e3cdb8fe6fb805d90e60846') in 0.008401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.698929 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Prefabs/DoorWay.prefab
+  artifactKey: Guid(42823df6e1b204a468f32120ecbe51f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Prefabs/DoorWay.prefab using Guid(42823df6e1b204a468f32120ecbe51f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2686f2d1dd90349d29d0ee0b5e93bef') in 0.015715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Prefabs/Trolley.prefab
+  artifactKey: Guid(b01fa194940f0624ca7e3df13bed1969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Prefabs/Trolley.prefab using Guid(b01fa194940f0624ca7e3df13bed1969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0e0664dcbebe783f80221fb3276f6a') in 0.009206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Prefabs/Lamp.prefab
+  artifactKey: Guid(2fa97d29375bda64080d41087c0c107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Prefabs/Lamp.prefab using Guid(2fa97d29375bda64080d41087c0c107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963a05b94f4a0f15fdea2d992bf43b72') in 0.007943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Prefabs/OldCup.prefab
+  artifactKey: Guid(7e00b420d123b944b9365009b3dfd075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Prefabs/OldCup.prefab using Guid(7e00b420d123b944b9365009b3dfd075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2879ac10fdd18dd986bd0080391f27') in 0.006637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Prefabs/Wall.prefab
+  artifactKey: Guid(acb5b460622c8ee4b825a3e68c33c1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Prefabs/Wall.prefab using Guid(acb5b460622c8ee4b825a3e68c33c1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7399c403aa17a93a6175d82cab21f074') in 0.006003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Prefabs/WallDoorWay.prefab
+  artifactKey: Guid(3bab19842fc2b8e44837b5c42192679d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Prefabs/WallDoorWay.prefab using Guid(3bab19842fc2b8e44837b5c42192679d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f798556afd334af4895018ff7441ee6') in 0.008908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 2.096820 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Models/Wall/Wall01.FBX
+  artifactKey: Guid(40b8fd596870e5e4cb4ccb145b409d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Models/Wall/Wall01.FBX using Guid(40b8fd596870e5e4cb4ccb145b409d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47285480cc1459fbca3d6b82c7473c5') in 0.020183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Models/Wall/WallDiffuse.mat
+  artifactKey: Guid(b4f289f5dfeab2a4e95f745560cfe1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Models/Wall/WallDiffuse.mat using Guid(b4f289f5dfeab2a4e95f745560cfe1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6d0f144b5ed11866f1324d8b2323ba') in 0.007607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Models/Wall/WallHeightl.png
+  artifactKey: Guid(3e2aeb900fb8f75449dacd9124f90ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Models/Wall/WallHeightl.png using Guid(3e2aeb900fb8f75449dacd9124f90ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9cb3c49f1dd64286ecd2eef71c5076') in 0.006251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.234633 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Models/SD/SD.FBX
+  artifactKey: Guid(6468c9a8e17142b4ca0f0ec3570361ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Models/SD/SD.FBX using Guid(6468c9a8e17142b4ca0f0ec3570361ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bccc04470ce837dcdd4a87c07ee7fd') in 0.011247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Models/SD/SDDiffuse.png
+  artifactKey: Guid(fe1e9257dd90991488e4a22f4d9afe6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Models/SD/SDDiffuse.png using Guid(fe1e9257dd90991488e4a22f4d9afe6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e1e50c998ea5361f2584efefd56342') in 0.006229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Models/SD/SDNormal.png
+  artifactKey: Guid(b858c2119a90eea458fa78f3d981b122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Models/SD/SDNormal.png using Guid(b858c2119a90eea458fa78f3d981b122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce538fed15ea34e8c1827977970d55df') in 0.005195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.311498 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Models/Lamp/LampDiffuse.png
+  artifactKey: Guid(fdf5c2c8889832c40bbda772a312a0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Models/Lamp/LampDiffuse.png using Guid(fdf5c2c8889832c40bbda772a312a0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e904994bc9bc0709b74e2d61a88d427') in 0.007638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Unseen/Horror Hospital Pack/Models/Lamp/mLamp.mat
+  artifactKey: Guid(0529c95baad5a264787a242f949623c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unseen/Horror Hospital Pack/Models/Lamp/mLamp.mat using Guid(0529c95baad5a264787a242f949623c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf748c4899c919e9e6214771ccf4d13') in 0.006552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.556 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.081 seconds
+Domain Reload Profiling: 2638ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (328ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2082ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1464ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (1232ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (222.1 KB). Loaded Objects now: 4056.
+Memory consumption went from 157.9 MB to 157.7 MB.
+Total: 2.640833 ms (FindLiveObjects: 0.246250 ms CreateObjectMapping: 0.053708 ms MarkObjects: 2.239292 ms  DeleteObjects: 0.101125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.507 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.835 seconds
+Domain Reload Profiling: 2343ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1836ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (1209ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (199.2 KB). Loaded Objects now: 4059.
+Memory consumption went from 167.0 MB to 166.8 MB.
+Total: 3.019542 ms (FindLiveObjects: 0.283667 ms CreateObjectMapping: 0.050500 ms MarkObjects: 2.609417 ms  DeleteObjects: 0.075125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
